@@ -67,13 +67,6 @@ class _LoginScreenState extends State<LoginScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const SizedBox(height: 80),
-                // Logo de la aplicación
-                Image.asset(
-                  'assets/logo.png', // Asegúrate de tener este asset
-                  height: 120,
-                  width: 120,
-                ),
-                const SizedBox(height: 40),
                 Text(
                   'Depura Code',
                   style: Theme.of(context).textTheme.headlineMedium?.copyWith(
